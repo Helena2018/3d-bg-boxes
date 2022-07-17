@@ -40,3 +40,23 @@ body {
   box-shadow: none;
   transform: translateY(2px);
 }
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 500px;
+  justify-content: space-between;
+}
+
+.boxes.big {
+  width: 600px;
+  height: 600px;
+
+}
+
+.box {
+  background-color: #f7b733;
+  width: 125px;
+  height: 125px;
+}
