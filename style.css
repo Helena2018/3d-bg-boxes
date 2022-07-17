@@ -84,7 +84,7 @@ body {
 .box::before {
   content: '';
   position: absolute;
-  background-color: #f6e58d;
+  background-color: #f7b733;
   height: 15px;
   width: 100%;
   bottom: -15px;
