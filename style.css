@@ -47,16 +47,25 @@ body {
   height: 500px;
   width: 500px;
   justify-content: space-between;
+  position: relative;
+  transition: 0.4s ease;
 }
 
 .boxes.big {
   width: 600px;
   height: 600px;
+}
 
+.boxes.big .box {
+  transform: rotateZ(360deg);
 }
 
 .box {
-  background-color: #f7b733;
+  background-image: url('https://cdn.vox-cdn.com/thumbor/SFU8wqXYsSS_C-6NgerZMePh4Po=/0x15:500x348/1400x1050/filters:focal(0x15:500x348):format(gif)/cdn.vox-cdn.com/uploads/chorus_image/image/36992002/tumblr_lmwsamrrxT1qagx30.0.0.gif');
+  background-repeat: no-repeat;
+  background-size: 500px 500px;
+  position: relative;
   width: 125px;
   height: 125px;
+  transition: 0.4s ease;
 }
