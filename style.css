@@ -17,11 +17,11 @@ body {
 }
 
 .magic {
-  background-color: #F37335;
+  background-color: #f7b733;
   color: #fff;
   border: 0;
   border-radius: 3px;
-  padding: 12px 20px;
+  padding: 10px 20px;
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
   cursor: pointer;
@@ -29,6 +29,7 @@ body {
   top: 20px;
   letter-spacing: 1px;
   box-shadow: 0 3px 10px rgba(224, 180, 114, 0.5);
+  z-index: 100;
 }
 
 .magic:focus {
